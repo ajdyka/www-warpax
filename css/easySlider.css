@@ -1,0 +1,32 @@
+/* Easy Slider */
+
+	#slider, #gallery{}	
+
+	#slider ul, #slider li, #gallery ul, #gallery li {
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li { 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:696px;
+		height:241px;
+		overflow:hidden;
+		background: #fff url(images/gradient-background.png) repeat-x;
+		}	
+	
+	#gallery li { 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:656px;
+		height:400px;
+		overflow:hidden;
+		background: #fff;
+		}	
+	
+/* // Easy Slider */
